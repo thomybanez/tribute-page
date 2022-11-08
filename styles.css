@@ -1,0 +1,199 @@
+/*TOP NAVIGATION*/
+#nav{
+    text-align: left;    
+    position:absolute;
+    z-index: 10;
+    padding: 25px 25px;
+    backdrop-filter: blur(2px);
+    letter-spacing: 5px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#links{ 
+    position:relative;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0% 5%;       
+}
+
+.return{
+    display:block;
+    padding-top:1px;
+    margin-top:-1px;
+    height: 100px;
+    width: 100px;
+}
+
+/*LINKS*/
+a:link{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: rgb(229, 255, 0);
+}
+
+/*BODY BACKGROUND POLKADOTS*/
+#main{
+    background-image: url(Dots.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    position:absolute;
+}
+
+.pagelink{
+    color: black;
+}
+
+.articletitle{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(66,89,110);
+}
+
+.headtitle{       
+    font-size: 30px;
+    font-family: Helvetica;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 10vh;
+    left: 30vw;   
+    letter-spacing: 10px;
+    filter: blur(0.7px);
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+#img-div{
+    position: relative;
+}
+
+/*YAYOI'S PICTURE*/
+#image{
+    opacity: 100%;
+    width:100vw;
+    max-height: 100vh;
+    display: inline;
+}
+
+/*PICTURE INFORMATIVE*/
+.img-info{
+max-width:100%;
+}
+
+.flex{
+    display: flexbox;
+}
+
+/*BIOGRAPHY*/
+.tributecontainer{    
+    min-width: 100px;
+    min-height: 150px;
+    max-width: 500px;
+    max-height: fit-content;
+    margin: 15vh auto;
+}
+
+
+
+
+
+#tribute-info{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#tribute-info-bottom{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-bottom:60%;   
+}
+
+#tribute-link{
+    text-align: right;
+    margin: 5% 20%;
+
+}
+
+#img-caption{
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left: 3%;
+    font-style: italic;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    margin-top: 5%;
+    color: rgb(66,89,110);
+    
+}
+
+.imgarts{    
+    display: inline;
+    margin: auto auto;
+    object-fit: cover;
+    height:300px;
+    width: 1000px;
+    transform: skew(-10deg);
+    box-shadow: 10px 10px 1px 1px;
+    
+}
+
+.artgallery{
+    margin: auto 20%;
+}
+
+.frames{    
+    margin: 5% 1%;
+    display:flex;
+    flex-direction: row;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 90px;
+}
+
+.artinfo{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}   
+
+h1{
+    display: inline;
+}
+
+
+
+
+/* 
+1. As a user, I want my tribute page to have an element with a corresponding id="main", which contains all other elements.
+2. As a user, I want to see an element with a corresponding id=“title”, which contains a string (i.e. text) that describes the
+subject of the tribute page (e.g. “Steve Jobs”).
+3. As a user, I want to see a div element with a corresponding id=“img-div”.
+4. As a user, I want to see a an img element with a corresponding id=“image” within the 'img-div' element.
+5. As a user, I want to see an element with a corresponding id="img-caption" that contains text content describing the image
+show in img-div.
+6. As a user, I want to see an element with a corresponding id="tribute-info" which contains text content describing the
+subject of the tribute page.
+7. As a user, I want to see an element with a corresponding id=“tribute- link”, which links to an outside site that contains
+additional information about the subject of the tribute page.
+HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e.
+target=“_blank”).
+8. As a user, I want the img element to be responsive to resizing, relative to the width of its parent element.
+9. As a user, i want the img element to be centered within its parent element.
+10. As a user, I want to read a post, article, or story about the person with at least 2 headings in h1 ... h6, and paragraphs in p
+*/
